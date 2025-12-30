@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m “upload without env”
+git remote set-url origin https://github.com/<ten_repo>.git
+ví dụ 
+git remote set-url origin https://github.com/tramle1008/demo_ct490.git
+git push -u origin main --force
